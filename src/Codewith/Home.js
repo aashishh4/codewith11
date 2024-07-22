@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import './Home.css'; // Make sure to create this file for CSS
+import './Home.css'; 
 
 function Home() {
     const [data, setData] = useState([]);
